@@ -53,7 +53,9 @@ import logEventsService from "../services/logEventsService";
 export default {
   name: "stimot",
   data() {
-    return {};
+    return {
+            mobile: "972525503666",
+    };
   },
   methods: {
     onGoToForm() {
